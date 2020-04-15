@@ -21,4 +21,18 @@ public customer(String id, String pass, item item, String name, String email) {
 	 System.out.println("E-mail: "+email);
 	 item.display();
  }
+	
+ public static void main(String[]args) {
+	 Item item=new Item("Biscuit",20.00);
+	 Customer cust= new Customer("1021","16353555",item,"Asif","asif15-1021@diu.edu.bd");
+	 cust.display();
+ }
+	
+	
+	
+	
+	
+	
+	
+	
 }
